@@ -481,7 +481,7 @@ def endgame():
   final_score.pu()
   final_score.speed(0)
   final_score.goto(-120,20)
-  final_score.write("Your score:" , move=False, font=("Arial", 40, "normal"))
+  final_score.write("Deine Punkte:" , move=False, font=("Arial", 40, "normal"))
   final_score.goto(-40,-50)
   final_score.pd()
   if score <= 9:
